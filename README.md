@@ -167,10 +167,3 @@ Note that a wildcard certificate requires its own CNAME in the primary zone:
 
 ---
 
-## Files
-
-| File               | Description                                                                     |
-|--------------------|---------------------------------------------------------------------------------|
-| `certbot-run.sh`   | Entry point; runs certbot with `--manual-auth-hook` and `--manual-cleanup-hook` |
-| `auth-hook.sh`     | Creates the `_acme-challenge` TXT record in the challenge zone                  |
-| `cleanup-hook.sh`  | Deletes the TXT record from the challenge zone after validation                 |
