@@ -164,6 +164,3 @@ This delegation technique makes DNS-01 automation viable even when direct API ac
 primary zone is unavailable, unlocking wildcard issuance for otherwise inaccessible zones.
 Note that a wildcard certificate requires its own CNAME in the primary zone:
 `_acme-challenge.example.com. IN CNAME _acme-challenge.example.com.challenge-service.com.`
-
----
-
