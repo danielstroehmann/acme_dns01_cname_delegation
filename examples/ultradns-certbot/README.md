@@ -17,7 +17,7 @@ UltraDNS challenge zone. After that, renewals run fully unattended without ever 
 primary zone again.
 
 For a detailed explanation of the technique see
-[CNAME-DELEGATION.md](../CNAME-DELEGATION.md).
+[CNAME-DELEGATION.md](../../README.md).
 
 ## Files
 
