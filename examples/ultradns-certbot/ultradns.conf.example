@@ -1,0 +1,3 @@
+ULTRADNS_USERNAME=MyUltraDNSusername
+ULTRADNS_PASSWORD=MyUltraDNSpassword
+ULTRADNS_ZONE_NAME=example-resolver.com
